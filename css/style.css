@@ -461,3 +461,11 @@ a {
   font-weight: 500;
   color: dimgray;
 }
+
+
+/* banner section */
+.banner_img_div{
+  width:100%;
+  height:auto;
+  object-fit: cover;
+}
