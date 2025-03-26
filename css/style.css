@@ -54,11 +54,17 @@ a {
 }
 
 .heading {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--btn-txt-color);
   font-family: "Bebas Neue", sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+
+.sub_heading {
+  font-size: 2rem;
+  color: var(--btn-txt-color);
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .w-color {
@@ -383,4 +389,75 @@ a {
 .BestSeller_offer_img_div img {
   width: 100%;
   height: 150px;
+}
+
+
+/* BreakFast Section */
+.BreakFast_Container_div {
+  width: 100%;
+  height: 100%;
+}
+
+.BreakFast_Main_Div {
+  position: relative;
+  width: 350px;
+  min-height: 250px;
+  overflow: hidden;
+}
+
+.BreakFast_Main_Div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.breakfast_content {
+  position: absolute;
+  top: 10%;
+  background-color: #FFFFFF;
+  min-height: 100px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+  border-radius: 0px 50px 50px 0px;
+  -webkit-border-radius: 0px 50px 50px 0px;
+  -moz-border-radius: 0px 50px 50px 0px;
+  -ms-border-radius: 0px 50px 50px 0px;
+  -o-border-radius: 0px 50px 50px 0px;
+}
+
+.breakfast_btn {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: var(--btn-bg-color);
+  color: white;
+  border-radius: 5px;
+}
+
+.breakfast_btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.breakfast_offer {
+  color: #CC0000;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.breakfast_deal {
+  font-size: 1.2rem;
+  color: var(--btn-txt-color);
+  font-weight: 600;
+}
+
+.breakfast_txt {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: dimgray;
 }

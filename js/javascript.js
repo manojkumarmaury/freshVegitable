@@ -122,7 +122,7 @@ var swiper = new Swiper(".myBestSeller", {
       spaceBetween: 5,
     },
     480: {
-      slidesPerView: 3, // 2 slides for slightly larger screens
+      slidesPerView: 2, // 2 slides for slightly larger screens
       spaceBetween: 10,
     },
     768: {
@@ -135,6 +135,40 @@ var swiper = new Swiper(".myBestSeller", {
     },
     1200: {
       slidesPerView: 5, // 6 slides for large screens
+      spaceBetween: 10,
+    },
+  },
+});
+
+// BreakFast
+
+var swiper = new Swiper(".myBreakFast", {
+  slidesPerView: 4, // Default number of slides
+  spaceBetween: 10,
+  loop: true,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1, 
+      spaceBetween: 5,
+    },
+    480: {
+      slidesPerView: 2, 
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 3, 
+      spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 4, 
+      spaceBetween: 10,
+    },
+    1200: {
+      slidesPerView: 4,
       spaceBetween: 10,
     },
   },
