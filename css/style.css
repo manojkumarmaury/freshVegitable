@@ -473,19 +473,48 @@ a {
 
 /* order section */
 .order_product_main_div {
-  min-height: 300px;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 15px;
+  padding: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #CC0000 #f0f0f0;
+}
+
+.order_product_main_div::-webkit-scrollbar {
+  height: 8px;
+}
+
+.order_product_main_div::-webkit-scrollbar-thumb {
+  background-color: #CC0000;
+  border-radius: 10px;
 }
 
 .order_product_item {
+  flex: 0 0 auto;
   width: 300px;
-  min-height: 300px;
+  min-height: 200px;
+  background-color: #80CBC4;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
-.order_product_item img{
-  width:100%;
-  height: auto;
+.order_product_item img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
+
+.order_product_item:hover img {
+  transform: scale(1.1);
+}
+
 
 /* section  */
 .travel_div {
